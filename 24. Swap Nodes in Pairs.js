@@ -28,6 +28,7 @@ var swap = function (node) {
 
   node.next.next = node;
   node.next = swap(nextPairStartNode);
+  
   return newPairStartNode;
 };
 
@@ -36,9 +37,6 @@ var swap = function (node) {
  * @return {ListNode}
  */
 var swapPairs = function (head) {
-  if (!head) {
-    return null;
-  }
   return swap(head);
 };
 
