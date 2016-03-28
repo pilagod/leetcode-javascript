@@ -28,7 +28,7 @@ var swap = function (node) {
 
   node.next.next = node;
   node.next = swap(nextPairStartNode);
-  
+
   return newPairStartNode;
 };
 
