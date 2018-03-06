@@ -21,7 +21,10 @@ export class ListNode implements Node {
  * @param {ListNode} l2
  * @return {ListNode}
  */
-export default function addTwoNumbers(l1: Node, l2: Node): Node {
+export default function addTwoNumbers(
+  l1: Node,
+  l2: Node
+): Node {
   let result: Node = new ListNode(0)
   let curR: Node = result
 

@@ -1,4 +1,10 @@
-export default function longestPalindrome(str: string): string {
+/**
+ * @param {string} str
+ * @return {string}
+ */
+export default function longestPalindrome(
+  str: string
+): string {
   let start = 0
   let maxLength = 1
 

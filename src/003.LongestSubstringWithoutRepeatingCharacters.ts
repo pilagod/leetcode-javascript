@@ -1,4 +1,10 @@
-export default function lengthOfLongestSubstring(str: string): number {
+/**
+ * @param {string} str
+ * @return {number}
+ */
+export default function lengthOfLongestSubstring(
+  str: string
+): number {
   const dict: { [char: string]: number } = {}
   let maxLength = 0
   let curHeadIndex = 0
