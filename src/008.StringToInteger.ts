@@ -1,12 +1,11 @@
-/**
- * @param {string} str
- * @return {number}
- */
 const INT_MAX = 2147483647
 const INT_MIN = -2147483648
 const THRESHOLD_MAX = Math.floor(INT_MAX / 10)
 const THRESHOLD_MIN = Math.ceil(INT_MIN / 10)
-
+/**
+ * @param {string} str
+ * @return {number}
+ */
 export default function myAtoi(str: string): number {
   let idx = 0
   let sign = 1
