@@ -30,7 +30,7 @@ export default class Heap {
     const result = this.heap[0]
 
     this.heap[0] = this.heap[this.heap.length - 1]
-    this.heap.splice(this.heap.length - 1, 1)
+    this.heap.length--
     this.floatDownIfNeeded(0)
 
     return result
