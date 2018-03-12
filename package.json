@@ -6,7 +6,10 @@
     "test": "test"
   },
   "scripts": {
-    "test": "mocha -r ts-node/register -w --watch-extensions ts test/**/*.ts "
+    "test": "mocha -r ts-node/register -w --watch-extensions ts",
+    "test-alg": "npm test ./test/Algorithm/**/*.ts",
+    "test-dts": "npm test ./test/DataStructure/*.ts",
+    "test-leet": "npm test ./test/*.ts"
   },
   "repository": {
     "type": "git",
