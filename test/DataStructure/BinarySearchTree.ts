@@ -2,7 +2,7 @@ import { expect } from 'chai'
 import { NumberTreeNode } from '../../src/DataStructure/BinarySearchTreeNodes'
 import BinarySearchTree from '../../src/DataStructure/BinarySearchTree'
 
-describe.only('BinarySearchTree', () => {
+describe('BinarySearchTree', () => {
   it('should insert new node to root given tree is empty', () => {
     const bst = new BinarySearchTree(NumberTreeNode)
 
