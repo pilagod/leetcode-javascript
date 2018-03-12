@@ -22,6 +22,14 @@ export default function testCasesRunner(
       expect(result).to.deep.equal([1])
     })
 
+    it('should sort [2, 1] to [1, 2]', () => {
+      const nums = [2, 1]
+
+      const result = sort(nums)
+
+      expect(result).to.deep.equal([1, 2])
+    })
+
     it('should sort [3, 2, 1] to [1, 2, 3]', () => {
       const nums = [3, 2, 1]
 
